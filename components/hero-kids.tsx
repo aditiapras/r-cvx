@@ -109,7 +109,7 @@ export function HeroKids({
   const slide = slides[currentSlide];
 
   return (
-    <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+    <section className="relative h-[calc(100vh-72px)] w-full max-w-7xl mx-auto md:rounded-2xl overflow-hidden flex items-center justify-center">
       {/* Background Images with Transition */}
       {slides.map((s) => (
         <div

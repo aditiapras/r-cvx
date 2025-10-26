@@ -21,6 +21,7 @@
   "registries": {
     "@shadcnblocks": {
       "url": "https://shadcnblocks.com/r/{name}"
-    }
+    },
+    "@reui": "https://reui.io/r/{name}.json"
   }
 }

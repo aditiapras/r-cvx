@@ -46,7 +46,7 @@ export const adminSidebarData: SidebarData = {
             isActive: true,
             items: [
                 {
-                    title: "Artikel",
+                    title: "Blog & Artikel",
                     url: "/portal/artikel",
                 },
                 {
@@ -70,8 +70,8 @@ export const adminSidebarData: SidebarData = {
                     url: "/portal/pendaftaran",
                 },
                 {
-                    title: "Data Pendaftaran",
-                    url: "/portal/pendaftar",
+                    title: "Data Peserta",
+                    url: "/portal/peserta",
                 },
             ],
         },

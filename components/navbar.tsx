@@ -121,8 +121,8 @@ const Navbar = ({
 
   return (
     <section
-      className={`h-16 flex items-center justify-center px-5 md:px-0 fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md" : "bg-transparent"
+      className={`h-16 flex items-center justify-center px-5 md:px-0 sticky w-full top-0 z-50 transition-all duration-300 ${
+        isScrolled ? "bg-white shadow-md" : "bg-white"
       }`}
     >
       <div className="container">

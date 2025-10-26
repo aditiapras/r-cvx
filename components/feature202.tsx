@@ -53,8 +53,8 @@ const features: FeatureItem[] = [
 
 export function Feature202() {
   return (
-    <section aria-labelledby="feature-heading" className="py-24 mx-auto">
-      <div className="container">
+    <section aria-labelledby="feature-heading" className="py-24 w-full mx-auto bg-gradient-to-br from-sky-100/50   to-sky-700/20">
+      <div className="max-w-7xl mx-auto">
         <header className="mx-auto mb-12 max-w-3xl text-center">
           <p className="text-xs font-medium tracking-widest text-muted-foreground uppercase">
             Architecture
@@ -63,11 +63,11 @@ export function Feature202() {
             id="feature-heading"
             className="mt-3 text-4xl font-bold md:text-5xl"
           >
-            Modern solutions. Timeless design.
+Riyadh El Jannah Islamic School
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Residential, commercial, and urban planning. Transform spaces into
-            experiences with our comprehensive architectural solutions.
+            Membangun generasi islami yang sehat, suci, cerdas, dan bertaqwa. 
+            Dengan dedikasi dan pengabdian terhadap setiap individu, kami berkomitmen untuk memberikan pendidikan yang berkualitas dan mempersiapkan generasi masa depan untuk berpartisipasi dalam masyarakat yang berbasis pada nilai-nilai Islam.
           </p>
         </header>
 
@@ -83,7 +83,7 @@ export function Feature202() {
                   alt={item.title}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover grayscale brightness-90 contrast-100 transition-transform duration-500 group-hover:scale-[1.02]"
+                  className="object-cover  brightness-90 contrast-100 transition-transform duration-500 group-hover:scale-[1.02]"
                   priority={idx === 0}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />

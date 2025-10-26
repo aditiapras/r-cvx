@@ -62,8 +62,8 @@ export function BlogSection({
   ],
 }: BlogSectionProps) {
   return (
-    <section aria-labelledby="blog-heading" className="py-20 mx-auto">
-      <div className="container">
+    <section aria-labelledby="blog-heading" className="py-20 w-full mx-auto bg-sky-700">
+      <div className="container mx-auto">
         <header className="mb-10">
           <h2 id="blog-heading" className="text-4xl font-bold tracking-tight">
             {heading}
